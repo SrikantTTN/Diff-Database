@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/movieItem"
+        android:title="Movies"
+        android:icon="@drawable/ic_movie"
+        app:showAsAction="withText"/>
+    <item android:id="@+id/tvItem"
+        android:title="Tv Series"
+        android:icon="@drawable/ic_tv"
+        />
+    <item android:id="@+id/upcomingMovie"
+        android:title="Upcoming Movies"
+        android:icon="@drawable/upcoming_movie"
+        />
+</menu>

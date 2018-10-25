@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_40dp"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="@dimen/dimen_18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/errorMsg"
+        tool:text="Message"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
